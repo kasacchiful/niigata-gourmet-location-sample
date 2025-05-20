@@ -1,0 +1,29 @@
+.App {
+  text-align: center;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.App-header {
+  background-color: #282c34;
+  padding: 10px;
+  color: white;
+  z-index: 1000;
+}
+
+.App-header h1 {
+  margin: 0;
+  font-size: 1.5rem;
+}
+
+main {
+  flex: 1;
+  position: relative;
+}
+
+@media (max-width: 768px) {
+  .App-header h1 {
+    font-size: 1.2rem;
+  }
+}

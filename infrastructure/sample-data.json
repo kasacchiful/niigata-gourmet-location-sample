@@ -1,0 +1,84 @@
+{
+  "niigata_gourmet_spots": [
+    {
+      "PutRequest": {
+        "Item": {
+          "id": { "S": "spot1" },
+          "name": { "S": "新潟古町 藪そば" },
+          "category": { "S": "そば・うどん" },
+          "address": { "S": "新潟県新潟市中央区古町通6-937" },
+          "business_hours": { "S": "11:00-15:00, 17:00-20:00" },
+          "phone": { "S": "025-228-2205" },
+          "website_url": { "S": "https://www.yabu-soba.com/" },
+          "image_url": { "S": "https://example.com/images/yabu-soba.jpg" },
+          "latitude": { "N": "37.9161" },
+          "longitude": { "N": "139.0494" }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "id": { "S": "spot2" },
+          "name": { "S": "新潟カツ丼 タレカツ 本店" },
+          "category": { "S": "丼もの" },
+          "address": { "S": "新潟県新潟市中央区東大通1-7-10" },
+          "business_hours": { "S": "11:00-15:00, 17:00-21:00" },
+          "phone": { "S": "025-245-7788" },
+          "website_url": { "S": "https://www.tare-katsu.com/" },
+          "image_url": { "S": "https://example.com/images/tare-katsu.jpg" },
+          "latitude": { "N": "37.9118" },
+          "longitude": { "N": "139.0631" }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "id": { "S": "spot3" },
+          "name": { "S": "新潟 三宝亭 東堀店" },
+          "category": { "S": "ラーメン" },
+          "address": { "S": "新潟県新潟市中央区東堀通6-1051" },
+          "business_hours": { "S": "11:00-22:00" },
+          "phone": { "S": "025-229-1218" },
+          "website_url": { "S": "https://www.sanpoutei.co.jp/" },
+          "image_url": { "S": "https://example.com/images/sanpoutei.jpg" },
+          "latitude": { "N": "37.9145" },
+          "longitude": { "N": "139.0567" }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "id": { "S": "spot4" },
+          "name": { "S": "ぽんしゅ館 新潟駅店" },
+          "category": { "S": "居酒屋" },
+          "address": { "S": "新潟県新潟市中央区花園1-96-47" },
+          "business_hours": { "S": "10:00-20:00" },
+          "phone": { "S": "025-240-7090" },
+          "website_url": { "S": "https://www.ponshukan.com/" },
+          "image_url": { "S": "https://example.com/images/ponshukan.jpg" },
+          "latitude": { "N": "37.91154031293095" },
+          "longitude": { "N": "139.0607208134435" }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "id": { "S": "spot5" },
+          "name": { "S": "新潟せんべい王国" },
+          "category": { "S": "お土産" },
+          "address": { "S": "新潟県新潟市中央区鐘木185-3" },
+          "business_hours": { "S": "9:00-18:00" },
+          "phone": { "S": "025-383-1155" },
+          "website_url": { "S": "https://www.senbei-oukoku.co.jp/" },
+          "image_url": { "S": "https://example.com/images/senbei-oukoku.jpg" },
+          "latitude": { "N": "37.9085" },
+          "longitude": { "N": "139.0665" }
+        }
+      }
+    }
+  ]
+}
