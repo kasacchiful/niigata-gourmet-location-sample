@@ -22,8 +22,63 @@ main {
   position: relative;
 }
 
+.map-container {
+  height: 100%;
+  width: 100%;
+}
+
+.location-error {
+  position: absolute;
+  bottom: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: rgba(255, 0, 0, 0.7);
+  color: white;
+  padding: 10px;
+  border-radius: 5px;
+  z-index: 1000;
+}
+
 @media (max-width: 768px) {
   .App-header h1 {
     font-size: 1.2rem;
+  }
+}
+
+/* ユーザー位置のスタイル */
+.user-location-icon {
+  background: transparent;
+}
+
+.user-location-dot {
+  width: 16px;
+  height: 16px;
+  margin: 4px;
+  background-color: #4285F4;
+  border-radius: 50%;
+  border: 2px solid white;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+}
+
+.user-location-pulse {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+  background-color: rgba(66, 133, 244, 0.3);
+  border: 2px solid rgba(66, 133, 244, 0.5);
+  animation: pulse 2s infinite;
+}
+
+@keyframes pulse {
+  0% {
+    transform: scale(0.5);
+    opacity: 1;
+  }
+  100% {
+    transform: scale(2);
+    opacity: 0;
   }
 }
