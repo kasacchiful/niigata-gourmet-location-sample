@@ -77,6 +77,11 @@
   font-size: 14px;
 }
 
+.popup-content p strong {
+  display: inline-block;
+  min-width: 70px;
+}
+
 .popup-content a {
   display: inline-block;
   margin-top: 10px;

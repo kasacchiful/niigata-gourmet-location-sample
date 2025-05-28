@@ -139,7 +139,6 @@ const GourmetMap = () => {
                 </p>
                 <p><strong>住所:</strong> {spot.address}</p>
                 <p><strong>営業時間:</strong> {spot.business_hours}</p>
-                <p><strong>電話番号:</strong> {spot.phone}</p>
                 <a href={spot.website_url} target="_blank" rel="noopener noreferrer">
                   公式サイトを見る
                 </a>
