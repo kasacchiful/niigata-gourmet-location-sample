@@ -1,0 +1,103 @@
+.tag-filter {
+  margin-bottom: 20px;
+  padding: 15px;
+  background-color: #f8f9fa;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.tag-filter h3 {
+  margin-top: 0;
+  margin-bottom: 10px;
+  font-size: 18px;
+  color: #333;
+}
+
+.tag-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-bottom: 10px;
+}
+
+.tag-button {
+  padding: 6px 12px;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 20px;
+  font-size: 14px;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.tag-button:hover {
+  background-color: #f0f0f0;
+}
+
+.tag-button.selected {
+  background-color: #007bff;
+  color: white;
+  border-color: #007bff;
+}
+
+.clear-tags-button {
+  padding: 6px 12px;
+  background-color: #f8f9fa;
+  border: 1px solid #dc3545;
+  color: #dc3545;
+  border-radius: 4px;
+  font-size: 14px;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.clear-tags-button:hover {
+  background-color: #dc3545;
+  color: white;
+}
+
+.tag-filter-loading,
+.tag-filter-error {
+  padding: 10px;
+  border-radius: 4px;
+  font-size: 14px;
+}
+
+.tag-filter-loading {
+  background-color: #e9ecef;
+  color: #495057;
+}
+
+.tag-filter-error {
+  background-color: #f8d7da;
+  color: #721c24;
+}
+
+/* スポットタグのスタイル */
+.spot-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 5px;
+  margin-top: 5px;
+}
+
+.spot-tag {
+  display: inline-block;
+  padding: 2px 8px;
+  background-color: #e9ecef;
+  border-radius: 12px;
+  font-size: 12px;
+  color: #495057;
+}
+
+/* レスポンシブ対応 */
+@media (max-width: 768px) {
+  .tag-list {
+    gap: 6px;
+  }
+  
+  .tag-button {
+    padding: 4px 10px;
+    font-size: 13px;
+  }
+}

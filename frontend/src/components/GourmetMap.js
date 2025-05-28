@@ -2,7 +2,8 @@ import React, { useEffect, useState } from 'react';
 import { MapContainer, TileLayer, Marker, Popup, useMap } from 'react-leaflet';
 import 'leaflet/dist/leaflet.css';
 import L from 'leaflet';
-import { fetchGourmetSpots } from '../services/api';
+import TagFilter from './TagFilter';
+import useGourmetSpots from '../hooks/useGourmetSpots';
 
 // Leafletのデフォルトアイコンの問題を修正
 delete L.Icon.Default.prototype._getIconUrl;
@@ -92,25 +93,8 @@ const LocationMarker = () => {
 };
 
 const GourmetMap = () => {
-  const [spots, setSpots] = useState([]);
-  const [loading, setLoading] = useState(true);
-  const [error, setError] = useState(null);
-
-  useEffect(() => {
-    const getSpots = async () => {
-      try {
-        const data = await fetchGourmetSpots();
-        setSpots(data);
-        setLoading(false);
-      } catch (err) {
-        setError('グルメスポットの取得に失敗しました。');
-        setLoading(false);
-        console.error('Error fetching gourmet spots:', err);
-      }
-    };
-
-    getSpots();
-  }, []);
+  const [selectedTags, setSelectedTags] = useState([]);
+  const { spots, loading, error } = useGourmetSpots(selectedTags);
 
   if (loading) {
     return <div>読み込み中...</div>;
@@ -121,39 +105,50 @@ const GourmetMap = () => {
   }
 
   return (
-    <MapContainer
-      center={NIIGATA_STATION}
-      zoom={15}
-      scrollWheelZoom={true}
-      className="map-container"
-    >
-      <TileLayer
-        attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
-        url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
-      />
-      {/* モバイルデバイスの場合のみ位置情報を表示 */}
-      {isMobileDevice() && <LocationMarker />}
-      {spots.map((spot) => (
-        <Marker
-          key={spot.id}
-          position={[spot.latitude, spot.longitude]}
-        >
-          <Popup>
-            <div className="popup-content">
-              <h3>{spot.name}</h3>
-              <img src={spot.image_url} alt={spot.name} />
-              <p><strong>カテゴリ:</strong> {spot.category}</p>
-              <p><strong>住所:</strong> {spot.address}</p>
-              <p><strong>営業時間:</strong> {spot.business_hours}</p>
-              <p><strong>電話番号:</strong> {spot.phone}</p>
-              <a href={spot.website_url} target="_blank" rel="noopener noreferrer">
-                公式サイトを見る
-              </a>
-            </div>
-          </Popup>
-        </Marker>
-      ))}
-    </MapContainer>
+    <div className="gourmet-map-container">
+      <TagFilter selectedTags={selectedTags} onTagsChange={setSelectedTags} />
+      
+      <MapContainer
+        center={NIIGATA_STATION}
+        zoom={15}
+        scrollWheelZoom={true}
+        className="map-container"
+      >
+        <TileLayer
+          attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
+          url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
+        />
+        {/* モバイルデバイスの場合のみ位置情報を表示 */}
+        {isMobileDevice() && <LocationMarker />}
+        {spots.map((spot) => (
+          <Marker
+            key={spot.id}
+            position={[spot.latitude, spot.longitude]}
+          >
+            <Popup>
+              <div className="popup-content">
+                <h3>{spot.name}</h3>
+                <img src={spot.image_url} alt={spot.name} />
+                <p>
+                  <strong>カテゴリ:</strong> 
+                  <div className="spot-tags">
+                    {spot.tags && spot.tags.map((tag, index) => (
+                      <span key={index} className="spot-tag">{tag}</span>
+                    ))}
+                  </div>
+                </p>
+                <p><strong>住所:</strong> {spot.address}</p>
+                <p><strong>営業時間:</strong> {spot.business_hours}</p>
+                <p><strong>電話番号:</strong> {spot.phone}</p>
+                <a href={spot.website_url} target="_blank" rel="noopener noreferrer">
+                  公式サイトを見る
+                </a>
+              </div>
+            </Popup>
+          </Marker>
+        ))}
+      </MapContainer>
+    </div>
   );
 };
 

@@ -9,7 +9,7 @@ class Spot
 {
     public string $id;
     public string $name;
-    public string $category;
+    public array $tags;  // カテゴリをタグ形式に変更
     public string $address;
     public string $business_hours;
     public string $phone;
@@ -26,7 +26,17 @@ class Spot
         $spot = new self();
         $spot->id = $data['id'] ?? '';
         $spot->name = $data['name'] ?? '';
-        $spot->category = $data['category'] ?? '';
+        
+        // タグの処理 - 配列として保存、または文字列からの変換
+        if (isset($data['tags'])) {
+            $spot->tags = is_array($data['tags']) ? $data['tags'] : [$data['tags']];
+        } elseif (isset($data['category'])) {
+            // 後方互換性のため、categoryフィールドがある場合はそれをタグとして扱う
+            $spot->tags = [$data['category']];
+        } else {
+            $spot->tags = [];
+        }
+        
         $spot->address = $data['address'] ?? '';
         $spot->business_hours = $data['business_hours'] ?? '';
         $spot->phone = $data['phone'] ?? '';
@@ -46,7 +56,7 @@ class Spot
         return [
             'id' => $this->id,
             'name' => $this->name,
-            'category' => $this->category,
+            'tags' => $this->tags,
             'address' => $this->address,
             'business_hours' => $this->business_hours,
             'phone' => $this->phone,
@@ -55,5 +65,31 @@ class Spot
             'latitude' => $this->latitude,
             'longitude' => $this->longitude,
         ];
+    }
+    
+    /**
+     * 指定されたタグを持っているかチェック
+     */
+    public function hasTag(string $tag): bool
+    {
+        return in_array($tag, $this->tags);
+    }
+    
+    /**
+     * 指定されたタグのいずれかを持っているかチェック
+     */
+    public function hasAnyTag(array $tags): bool
+    {
+        if (empty($tags)) {
+            return true;
+        }
+        
+        foreach ($tags as $tag) {
+            if ($this->hasTag($tag)) {
+                return true;
+            }
+        }
+        
+        return false;
     }
 }

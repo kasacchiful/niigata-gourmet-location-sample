@@ -3,8 +3,9 @@ import { fetchGourmetSpots } from '../services/api';
 
 /**
  * グルメスポットデータを取得するカスタムフック
+ * @param {Array} filterTags - フィルタリングするタグの配列
  */
-const useGourmetSpots = () => {
+const useGourmetSpots = (filterTags = []) => {
   const [spots, setSpots] = useState([]);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState(null);
@@ -13,7 +14,7 @@ const useGourmetSpots = () => {
     const getSpots = async () => {
       try {
         setLoading(true);
-        const data = await fetchGourmetSpots();
+        const data = await fetchGourmetSpots(filterTags);
         setSpots(data);
         setError(null);
       } catch (err) {
@@ -25,7 +26,7 @@ const useGourmetSpots = () => {
     };
 
     getSpots();
-  }, []);
+  }, [filterTags]); // filterTagsが変更されたら再取得
 
   return { spots, loading, error };
 };

@@ -1,6 +1,8 @@
 import React from 'react';
 import GourmetMap from './components/GourmetMap';
 import './App.css';
+import './styles/GourmetMap.css';
+import './styles/TagFilter.css';
 
 function App() {
   return (

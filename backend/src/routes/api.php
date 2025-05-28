@@ -18,4 +18,10 @@ $app->group('/api', function (RouteCollectorProxy $group) {
         $controller = new SpotController($this->get('dynamodb'), $this->get('settings')['aws']['dynamodb']['table']);
         return $controller->getSpotById($request, $response, $args);
     });
+    
+    // 利用可能なタグ一覧を取得
+    $group->get('/tags', function (Request $request, Response $response) {
+        $controller = new SpotController($this->get('dynamodb'), $this->get('settings')['aws']['dynamodb']['table']);
+        return $controller->getAllTags($request, $response);
+    });
 });
