@@ -50,7 +50,6 @@ const LocationChangeButton = () => {
         title="新潟駅に移動"
       >
         <i className="location-icon station-icon"></i>
-        <span className="button-text">新潟駅</span>
       </button>
       
       {/* 現在地ボタン - モバイルデバイスのみ表示 */}
@@ -61,7 +60,6 @@ const LocationChangeButton = () => {
           title="現在地に移動"
         >
           <i className="location-icon current-location-icon"></i>
-          <span className="button-text">現在地</span>
         </button>
       )}
     </div>
