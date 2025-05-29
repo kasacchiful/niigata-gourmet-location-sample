@@ -1,0 +1,91 @@
+niigata_gourmet_spots:
+  - PutRequest:
+      Item:
+        id:
+          S: spot1
+        name:
+          S: "ラーチャン家 バスセンター店"
+        tags:
+          L:
+            - S: "ラーメン"
+            - S: "朝にオススメ"
+        address:
+          S: "新潟県新潟市中央区万代1-6-1 万代シテイバスセンタービル 1F"
+        business_hours:
+          S: "08:00-19:00 (土: 08:00-17:00)"
+        website_url:
+          S: "https://tabelog.com/niigata/A1501/A150101/15020100/"
+        image_url:
+          S: "/images/spot1-rachanya.jpg"
+        latitude:
+          N: "37.916791360571864"
+        longitude:
+          N: "139.05572372595645"
+  - PutRequest:
+      Item:
+        id:
+          S: spot2
+        name:
+          S: "万代そば"
+        tags:
+          L:
+            - S: "カレー"
+            - S: "朝にオススメ"
+        address:
+          S: "新潟県新潟市中央区万代1-6-1 万代シテイバスセンタービル 1F"
+        business_hours:
+          S: "08:00-19:00"
+        website_url:
+          S: "https://tabelog.com/niigata/A1501/A150101/15002517/"
+        image_url:
+          S: "/images/spot2-bandaisoba_curry.jpg"
+        latitude:
+          N: "37.91675652035341"
+        longitude:
+          N: "139.05561777421227"
+  - PutRequest:
+      Item:
+        id:
+          S: spot3
+        name:
+          S: "煮干し中華 八 堀之内店"
+        tags:
+          L:
+            - S: "ラーメン"
+            - S: "朝にオススメ"
+        address:
+          S: "新潟県新潟市中央区堀之内南1-1-17"
+        business_hours:
+          S: "08:00-19:00"
+        website_url:
+          S: "https://tabelog.com/niigata/A1501/A150101/15010928/"
+        image_url:
+          S: "/images/spot3-hachi_asara.jpg"
+        latitude:
+          N: "37.906001219108255"
+        longitude:
+          N: "139.0531608939422"
+  - PutRequest:
+      Item:
+        id:
+          S: spot4
+        name:
+          S: "ぽんしゅ館 新潟驛店"
+        tags:
+          L:
+            - S: "日本酒"
+            - S: "お土産"
+            - S: "居酒屋"
+            - S: "夜にオススメ"
+        address:
+          S: "新潟県新潟市中央区花園1-96-47 CoCoLo新潟 メッツ館"
+        business_hours:
+          S: "09:00-21:00 (唎酒番所9：30～20：30 ※最終受付20：15)"
+        website_url:
+          S: "https://www.ponshukan.com/niigata/"
+        image_url:
+          S: "/images/spot4-ponshukan.png"
+        latitude:
+          N: "37.91126275272403"
+        longitude:
+          N: "139.0607947127114"

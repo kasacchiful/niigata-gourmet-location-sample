@@ -1,0 +1,14 @@
+[
+    {
+        "Statement": "DELETE FROM \"niigata_gourmet_spots\" WHERE \"id\" = 'spot1'"
+    },
+    {
+        "Statement": "DELETE FROM \"niigata_gourmet_spots\" WHERE \"id\" = 'spot2'"
+    },
+    {
+        "Statement": "DELETE FROM \"niigata_gourmet_spots\" WHERE \"id\" = 'spot3'"
+    },
+    {
+        "Statement": "DELETE FROM \"niigata_gourmet_spots\" WHERE \"id\" = 'spot4'"
+    }
+]
