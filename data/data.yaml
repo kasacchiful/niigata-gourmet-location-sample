@@ -56,7 +56,7 @@ niigata_gourmet_spots:
         address:
           S: "新潟県新潟市中央区堀之内南1-1-17"
         business_hours:
-          S: "08:00-19:00"
+          S: "07:30-23:00"
         website_url:
           S: "https://tabelog.com/niigata/A1501/A150101/15010928/"
         image_url:
@@ -89,3 +89,25 @@ niigata_gourmet_spots:
           N: "37.91126275272403"
         longitude:
           N: "139.0607947127114"
+  - PutRequest:
+      Item:
+        id:
+          S: spot5
+        name:
+          S: "ぽんしゅ館 コンプレックス 角打ち"
+        tags:
+          L:
+            - S: "日本酒"
+            - S: "夜にオススメ"
+        address:
+          S: "新潟県新潟市中央区花園1-96-47 CoCoLo新潟 2F WEST SIDE"
+        business_hours:
+          S: "11:00-20:00 (金土日: 11:00-21:00)"
+        website_url:
+          S: "https://tabelog.com/niigata/A1501/A150101/15018605/"
+        image_url:
+          S: "/images/spot5-ponshukan-complex-kakuuchi.jpg"
+        latitude:
+          N: "37.91166003219414"
+        longitude:
+          N: "139.06058688058522"
