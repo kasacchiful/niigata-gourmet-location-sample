@@ -4,6 +4,7 @@ import 'leaflet/dist/leaflet.css';
 import L from 'leaflet';
 import TagFilter from './TagFilter';
 import InitialMapPosition from './InitialMapPosition';
+import LocationChangeButton from './LocationChangeButton';
 import useGourmetSpots from '../hooks/useGourmetSpots';
 
 // Leafletのデフォルトアイコンの問題を修正
@@ -123,6 +124,7 @@ const GourmetMap = () => {
         whenCreated={(map) => {
           mapRef.current = map;
         }}
+        zoomControl={false}
       >
         <TileLayer
           attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
@@ -132,6 +134,8 @@ const GourmetMap = () => {
         <InitialMapPosition />
         {/* モバイルデバイスの場合のみ位置情報を表示 */}
         {isMobileDevice() && <LocationMarker />}
+        {/* 位置変更ボタンを追加 */}
+        <LocationChangeButton />
         {spots.map((spot) => (
           <Marker
             key={spot.id}

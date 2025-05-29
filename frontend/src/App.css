@@ -82,3 +82,29 @@ main {
     opacity: 0;
   }
 }
+
+/* ポップアップのスタイル */
+.popup-content {
+  max-width: 250px;
+}
+
+.popup-content img {
+  width: 100%;
+  height: auto;
+  border-radius: 4px;
+  margin-bottom: 8px;
+}
+
+.spot-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 4px;
+  margin-top: 4px;
+}
+
+.spot-tag {
+  background-color: #f0f0f0;
+  padding: 2px 6px;
+  border-radius: 12px;
+  font-size: 0.8rem;
+}
