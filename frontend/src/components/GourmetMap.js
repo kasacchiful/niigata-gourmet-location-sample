@@ -3,6 +3,7 @@ import { MapContainer, TileLayer, Marker, Popup, useMap } from 'react-leaflet';
 import 'leaflet/dist/leaflet.css';
 import L from 'leaflet';
 import TagFilter from './TagFilter';
+import InitialMapPosition from './InitialMapPosition';
 import useGourmetSpots from '../hooks/useGourmetSpots';
 
 // Leafletのデフォルトアイコンの問題を修正
@@ -50,11 +51,6 @@ const LocationMarker = () => {
           const { latitude, longitude } = position.coords;
           const newPosition = { lat: latitude, lng: longitude };
           setPosition(newPosition);
-          
-          // 初回のみ地図の中心を現在地に設定
-          if (!position) {
-            map.setView(newPosition, 16);
-          }
         },
         (error) => {
           console.error('位置情報の取得に失敗しました:', error);
@@ -132,6 +128,8 @@ const GourmetMap = () => {
           attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
           url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
         />
+        {/* 初期表示位置を設定 */}
+        <InitialMapPosition />
         {/* モバイルデバイスの場合のみ位置情報を表示 */}
         {isMobileDevice() && <LocationMarker />}
         {spots.map((spot) => (
