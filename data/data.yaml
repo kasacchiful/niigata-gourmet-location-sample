@@ -111,3 +111,25 @@ niigata_gourmet_spots:
           N: "37.91166003219414"
         longitude:
           N: "139.06058688058522"
+  - PutRequest:
+      Item:
+        id:
+          S: spot6
+        name:
+          S: "ぽんしゅ館 コンプレックス 爆弾おにぎり家"
+        tags:
+          L:
+            - S: "おにぎり"
+            - S: "朝にオススメ"
+        address:
+          S: "新潟県新潟市中央区花園1-96-47 CoCoLo新潟 2F WEST SIDE"
+        business_hours:
+          S: "10:00-18:00"
+        website_url:
+          S: "https://tabelog.com/niigata/A1501/A150101/15019880/"
+        image_url:
+          S: "/images/spot6-ponshukan-complex-onigiri.jpg"
+        latitude:
+          N: "37.91174506717974"
+        longitude:
+          N: "139.0606170407961"

@@ -13,5 +13,8 @@
     },
     {
         "Statement": "DELETE FROM \"niigata_gourmet_spots\" WHERE \"id\" = 'spot5'"
+    },
+    {
+        "Statement": "DELETE FROM \"niigata_gourmet_spots\" WHERE \"id\" = 'spot6'"
     }
 ]
