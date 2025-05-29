@@ -144,7 +144,7 @@ const GourmetMap = () => {
             <Popup>
               <div className="popup-content">
                 <h3>{spot.name}</h3>
-                <img src={spot.image_url} alt={spot.name} />
+                { spot.image_url && spot.image_url !== "" && <img src={spot.image_url} alt={spot.name} /> }
                 <p>
                   <strong>カテゴリ:</strong> 
                   <div className="spot-tags">

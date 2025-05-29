@@ -106,7 +106,7 @@ niigata_gourmet_spots:
         website_url:
           S: "https://tabelog.com/niigata/A1501/A150101/15018605/"
         image_url:
-          S: "/images/spot5-ponshukan-complex-kakuuchi.jpg"
+          S: ""
         latitude:
           N: "37.91166003219414"
         longitude:
@@ -129,7 +129,7 @@ niigata_gourmet_spots:
         website_url:
           S: "https://tabelog.com/niigata/A1501/A150101/15019880/"
         image_url:
-          S: "/images/spot6-ponshukan-complex-onigiri.jpg"
+          S: ""
         latitude:
           N: "37.91174506717974"
         longitude:
@@ -306,7 +306,7 @@ niigata_gourmet_spots:
         website_url:
           S: "https://tabelog.com/niigata/A1501/A150101/15023812/"
         image_url:
-          S: "/images/spot14-mazeshamoji.jpg"
+          S: ""
         latitude:
           N: "37.91229699832531"
         longitude:
@@ -372,7 +372,7 @@ niigata_gourmet_spots:
         website_url:
           S: "https://www.nigirimai.com/"
         image_url:
-          S: "/images/spot17-nigirimai.jpg"
+          S: ""
         latitude:
           N: "37.9168006849897"
         longitude:
@@ -394,7 +394,7 @@ niigata_gourmet_spots:
         website_url:
           S: "https://www.onigiri-enmusu.com/"
         image_url:
-          S: "/images/spot18-onigiri-enmusu.jpg"
+          S: ""
         latitude:
           N: "37.912144720715176"
         longitude:
