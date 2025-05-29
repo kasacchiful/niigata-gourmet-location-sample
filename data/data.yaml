@@ -100,7 +100,7 @@ niigata_gourmet_spots:
             - S: "日本酒"
             - S: "夜にオススメ"
         address:
-          S: "新潟県新潟市中央区花園1-96-47 CoCoLo新潟 2F WEST SIDE"
+          S: "新潟県新潟市中央区花園1-1-1 CoCoLo新潟 2F WEST SIDE"
         business_hours:
           S: "11:00-20:00 (金土日: 11:00-21:00)"
         website_url:
@@ -121,8 +121,9 @@ niigata_gourmet_spots:
           L:
             - S: "おにぎり"
             - S: "朝にオススメ"
+            - S: "ランチにオススメ"
         address:
-          S: "新潟県新潟市中央区花園1-96-47 CoCoLo新潟 2F WEST SIDE"
+          S: "新潟県新潟市中央区花園1-1-1 CoCoLo新潟 2F WEST SIDE"
         business_hours:
           S: "10:00-18:00"
         website_url:
@@ -133,3 +134,357 @@ niigata_gourmet_spots:
           N: "37.91174506717974"
         longitude:
           N: "139.0606170407961"
+  - PutRequest:
+      Item:
+        id:
+          S: spot7
+        name:
+          S: "三吉屋 駅南けやき通り店"
+        tags:
+          L:
+            - S: "ラーメン"
+            - S: "ランチにオススメ"
+        address:
+          S: "新潟県新潟市中央区米山1-6-10"
+        business_hours:
+          S: "11:00-13:30, 17:30-20:30 (定休日: 月・火)"
+        website_url:
+          S: "https://tabelog.com/niigata/A1501/A150101/15002652/"
+        image_url:
+          S: "/images/spot7-sankichiya.jpg"
+        latitude:
+          N: "37.90949686070657"
+        longitude:
+          N: "139.06118727450377"
+  - PutRequest:
+      Item:
+        id:
+          S: spot8
+        name:
+          S: "お食事処 市玄 CoCoLo新潟店"
+        tags:
+          L:
+            - S: "ラーメン"
+            - S: "朝にオススメ"
+            - S: "ランチにオススメ"
+        address:
+          S: "新潟県新潟市中央区花園1-1-1 CoCoLo新潟 2F WEST SIDE ニシデリストリート内"
+        business_hours:
+          S: "10:00-20:30"
+        website_url:
+          S: "https://www.asapparamen-ichigen.com/"
+        image_url:
+          S: "/images/spot8-ichigen.jpg"
+        latitude:
+          N: "37.912111160728934"
+        longitude:
+          N: "139.06058242140946"
+  - PutRequest:
+      Item:
+        id:
+          S: spot9
+        name:
+          S: "ラーメン東横 笹口店"
+        tags:
+          L:
+            - S: "ラーメン"
+            - S: "ランチにオススメ"
+        address:
+          S: "新潟県新潟市中央区南笹口1-1-38 コープオリンピア笹口 1F"
+        business_hours:
+          S: "11:00-22:00 (日: 11:00-21:00 / 定休日: 火)"
+        website_url:
+          S: "https://tabelog.com/niigata/A1501/A150101/15000026/"
+        image_url:
+          S: "/images/spot9-toyoko.jpg"
+        latitude:
+          N: "37.90763644536068"
+        longitude:
+          N: "139.06507065324206"
+  - PutRequest:
+      Item:
+        id:
+          S: spot10
+        name:
+          S: "燕三条 酒麺亭 潤"
+        tags:
+          L:
+            - S: "ラーメン"
+            - S: "ランチにオススメ"
+        address:
+          S: "新潟県新潟市中央区花園1-1-1 CoCoLo新潟 2F EAST SIDE ニイガタバル☆麺横丁内"
+        business_hours:
+          S: "11:00-23:00"
+        website_url:
+          S: "https://tabelog.com/niigata/A1501/A150101/15023804/"
+        image_url:
+          S: "/images/spot10-tsubame-jun.jpg"
+        latitude:
+          N: "37.91224229305065"
+        longitude:
+          N: "139.06293710358779"
+  - PutRequest:
+      Item:
+        id:
+          S: spot11
+        name:
+          S: "麺や 忍"
+        tags:
+          L:
+            - S: "ラーメン"
+            - S: "ランチにオススメ"
+        address:
+          S: "新潟県新潟市中央区米山4-1-1 伏見ビル2 1F"
+        business_hours:
+          S: "11:00-14:00, 18:00-19:00 (土: 11:00-14:00) (定休日: 日・祝日)"
+        website_url:
+          S: "https://tabelog.com/niigata/A1501/A150101/15011289/"
+        image_url:
+          S: "/images/spot11-shinobu.jpg"
+        latitude:
+          N: "37.90766214367351"
+        longitude:
+          N: "139.0598077790035"
+  - PutRequest:
+      Item:
+        id:
+          S: spot12
+        name:
+          S: "青島食堂 司菜 南万代店"
+        tags:
+          L:
+            - S: "ラーメン"
+            - S: "ランチにオススメ"
+        address:
+          S: "新潟県新潟市中央区南万代町2-14"
+        business_hours:
+          S: "11:00-19:00"
+        website_url:
+          S: "https://tabelog.com/niigata/A1501/A150101/15002831/"
+        image_url:
+          S: "/images/spot12-aoshimashokudo-minamibandai.jpg"
+        latitude:
+          N: "37.9147330289418"
+        longitude:
+          N: "139.05677177944642"
+  - PutRequest:
+      Item:
+        id:
+          S: spot13
+        name:
+          S: "鶏そば縁道 煮干別邸 CoCoLo新潟"
+        tags:
+          L:
+            - S: "ラーメン"
+            - S: "ランチにオススメ"
+        address:
+          S: "新潟県新潟市中央区花園1-1-1 CoCoLo新潟 2F EAST SIDE ニイガタバル☆麺横丁内"
+        business_hours:
+          S: "11:00-23:00"
+        website_url:
+          S: "https://tabelog.com/niigata/A1501/A150101/15024625/"
+        image_url:
+          S: "/images/spot13-endo-niboshi.jpg"
+        latitude:
+          N: "37.91232080483663"
+        longitude:
+          N: "139.06295115060215"
+  - PutRequest:
+      Item:
+        id:
+          S: spot14
+        name:
+          S: "ラーメン まぜそば マゼシャモジ CoCoLo新潟店"
+        tags:
+          L:
+            - S: "ラーメン"
+            - S: "ランチにオススメ"
+        address:
+          S: "新潟県新潟市中央区花園1-1-1 CoCoLo新潟 2F EAST SIDE ニイガタバル☆麺横丁内"
+        business_hours:
+          S: "11:00-23:00"
+        website_url:
+          S: "https://tabelog.com/niigata/A1501/A150101/15023812/"
+        image_url:
+          S: "/images/spot14-mazeshamoji.jpg"
+        latitude:
+          N: "37.91229699832531"
+        longitude:
+          N: "139.06316773897856"
+  - PutRequest:
+      Item:
+        id:
+          S: spot15
+        name:
+          S: "だるまや NIIGATA BASER"
+        tags:
+          L:
+            - S: "ラーメン"
+            - S: "ランチにオススメ"
+        address:
+          S: "新潟県新潟市中央区花園1-1-1 CoCoLo新潟 2F EAST SIDE ニイガタバル☆麺横丁内"
+        business_hours:
+          S: "11:00-23:00"
+        website_url:
+          S: "https://tabelog.com/niigata/A1501/A150101/15023802/"
+        image_url:
+          S: "/images/spot15-darumaya-niigatabase.jpg"
+        latitude:
+          N: "37.912229281982654"
+        longitude:
+          N: "139.06317511505327"
+  - PutRequest:
+      Item:
+        id:
+          S: spot16
+        name:
+          S: "ラーメン いっとうや CoCoLo新潟店"
+        tags:
+          L:
+            - S: "ラーメン"
+            - S: "ランチにオススメ"
+        address:
+          S: "新潟県新潟市中央区花園1-1-1 CoCoLo新潟 2F EAST SIDE ニイガタバル☆麺横丁内"
+        business_hours:
+          S: "11:00-23:00"
+        website_url:
+          S: "https://tabelog.com/niigata/A1501/A150101/15023793/"
+        image_url:
+          S: "/images/spot16-ittouya.jpg"
+        latitude:
+          N: "37.91219066247808"
+        longitude:
+          N: "139.0630678266939"
+  - PutRequest:
+      Item:
+        id:
+          S: spot17
+        name:
+          S: "にぎり米"
+        tags:
+          L:
+            - S: "おにぎり"
+            - S: "朝にオススメ"
+        address:
+          S: "新潟県新潟市中央区東大通2-8-4"
+        business_hours:
+          S: "08:00-15:00, 16:00-19:00 (定休日: 日・祝日)"
+        website_url:
+          S: "https://www.nigirimai.com/"
+        image_url:
+          S: "/images/spot17-nigirimai.jpg"
+        latitude:
+          N: "37.9168006849897"
+        longitude:
+          N: "139.06034524071833"
+  - PutRequest:
+      Item:
+        id:
+          S: spot18
+        name:
+          S: "新潟おにぎり 笑ん結"
+        tags:
+          L:
+            - S: "おにぎり"
+            - S: "朝にオススメ"
+        address:
+          S: "新潟県新潟市中央区花園1-1-1 CoCoLo新潟 2F WEST SIDE ニシデリストリート内"
+        business_hours:
+          S: "07:00-20:30"
+        website_url:
+          S: "https://www.onigiri-enmusu.com/"
+        image_url:
+          S: "/images/spot18-onigiri-enmusu.jpg"
+        latitude:
+          N: "37.912144720715176"
+        longitude:
+          N: "139.06063058679163"
+  - PutRequest:
+      Item:
+        id:
+          S: spot19
+        name:
+          S: "千代鮨"
+        tags:
+          L:
+            - S: "寿司"
+            - S: "ランチにオススメ"
+            - S: "夜にオススメ"
+        address:
+          S: "新潟県新潟市中央区東大通1-5-26"
+        business_hours:
+          S: "11:30-13:30, 16:30-22:30 (日・祝日: 16:30-22:30) (定休日: 日 (月曜祝日の場合は日曜営業))"
+        website_url:
+          S: "https://chiyozushi-niigata.gorp.jp/"
+        image_url:
+          S: "/images/spot19-chiyozushi.jpg"
+        latitude:
+          N: "37.914190647985414"
+        longitude:
+          N: "139.06268292395026"
+  - PutRequest:
+      Item:
+        id:
+          S: spot20
+        name:
+          S: "佐渡 廻転寿司 弁慶 万代シテイ店"
+        tags:
+          L:
+            - S: "寿司"
+            - S: "ランチにオススメ"
+        address:
+          S: "新潟県新潟市中央区万代1-3-30 万代シルバーホテル 2F"
+        business_hours:
+          S: "10:00-21:30"
+        website_url:
+          S: "https://sado-benkei.com/bandai-city/"
+        image_url:
+          S: "/images/spot20-benkei-bandai.jpg"
+        latitude:
+          N: "37.91634347549799"
+        longitude:
+          N: "139.05629957629304"
+  - PutRequest:
+      Item:
+        id:
+          S: spot21
+        name:
+          S: "佐渡 廻転寿司 弁慶 ピア万代店"
+        tags:
+          L:
+            - S: "寿司"
+            - S: "ランチにオススメ"
+        address:
+          S: "新潟県新潟市中央区万代島2-4 ピアbandai内"
+        business_hours:
+          S: "10:30-21:30"
+        website_url:
+          S: "https://sado-benkei.com/pier-bandai/"
+        image_url:
+          S: "/images/spot21-benkei-piarbandai.jpg"
+        latitude:
+          N: "37.92321350650487"
+        longitude:
+          N: "139.0610354010196"
+  - PutRequest:
+      Item:
+        id:
+          S: spot22
+        name:
+          S: "兄弟寿し"
+        tags:
+          L:
+            - S: "寿司"
+            - S: "夜にオススメ"
+        address:
+          S: "新潟県新潟市中央区東堀通8-1427-2"
+        business_hours:
+          S: "17:30-20:00, 20:30-23:00"
+        website_url:
+          S: "https://tabelog.com/niigata/A1501/A150101/15023066/"
+        image_url:
+          S: ""
+        latitude:
+          N: "37.92373239302977"
+        longitude:
+          N: "139.04585975178736"
