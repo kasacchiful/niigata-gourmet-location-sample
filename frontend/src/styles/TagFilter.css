@@ -4,13 +4,57 @@
   background-color: #f8f9fa;
   border-radius: 8px;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease;
+}
+
+.tag-filter-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
 }
 
 .tag-filter h3 {
-  margin-top: 0;
-  margin-bottom: 10px;
+  margin: 0;
   font-size: 18px;
   color: #333;
+}
+
+.toggle-filter-button {
+  background: none;
+  border: none;
+  color: #007bff;
+  cursor: pointer;
+  font-size: 14px;
+  padding: 5px 10px;
+  border-radius: 4px;
+  transition: all 0.2s ease;
+}
+
+.toggle-filter-button:hover {
+  background-color: rgba(0, 123, 255, 0.1);
+}
+
+.tag-filter-content {
+  overflow: hidden;
+  transition: max-height 0.3s ease;
+}
+
+.tag-filter.expanded .tag-filter-content {
+  max-height: 500px; /* 十分な高さを確保 */
+}
+
+.tag-filter.collapsed .tag-filter-content {
+  max-height: 0;
+  padding-top: 0;
+  padding-bottom: 0;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.tag-filter.collapsed {
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
 
 .tag-list {

@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react';
+import React, { useEffect, useState, useRef } from 'react';
 import { MapContainer, TileLayer, Marker, Popup, useMap } from 'react-leaflet';
 import 'leaflet/dist/leaflet.css';
 import L from 'leaflet';
@@ -95,6 +95,16 @@ const LocationMarker = () => {
 const GourmetMap = () => {
   const [selectedTags, setSelectedTags] = useState([]);
   const { spots, loading, error } = useGourmetSpots(selectedTags);
+  const mapRef = useRef(null);
+
+  // フィルターの表示/非表示が切り替わった時に地図のサイズを再計算
+  useEffect(() => {
+    if (mapRef.current) {
+      setTimeout(() => {
+        mapRef.current.invalidateSize();
+      }, 300); // CSSトランジションの時間に合わせる
+    }
+  }, []);
 
   if (loading) {
     return <div>読み込み中...</div>;
@@ -113,6 +123,10 @@ const GourmetMap = () => {
         zoom={15}
         scrollWheelZoom={true}
         className="map-container"
+        ref={mapRef}
+        whenCreated={(map) => {
+          mapRef.current = map;
+        }}
       >
         <TileLayer
           attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'

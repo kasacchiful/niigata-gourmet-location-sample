@@ -11,6 +11,7 @@ const TagFilter = ({ selectedTags = [], onTagsChange }) => {
   const [tags, setTags] = useState([]);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState(null);
+  const [isVisible, setIsVisible] = useState(true); // フィルター表示状態の管理
 
   // 利用可能なタグを取得
   useEffect(() => {
@@ -47,6 +48,11 @@ const TagFilter = ({ selectedTags = [], onTagsChange }) => {
     onTagsChange([]);
   };
 
+  // フィルター表示/非表示の切り替え
+  const toggleVisibility = () => {
+    setIsVisible(!isVisible);
+  };
+
   if (loading) {
     return <div className="tag-filter-loading">タグを読み込み中...</div>;
   }
@@ -56,24 +62,36 @@ const TagFilter = ({ selectedTags = [], onTagsChange }) => {
   }
 
   return (
-    <div className="tag-filter">
-      <h3>カテゴリでフィルタ</h3>
-      <div className="tag-list">
-        {tags.map((tag) => (
-          <button
-            key={tag}
-            className={`tag-button ${selectedTags.includes(tag) ? 'selected' : ''}`}
-            onClick={() => toggleTag(tag)}
-          >
-            {tag}
-          </button>
-        ))}
-      </div>
-      {selectedTags.length > 0 && (
-        <button className="clear-tags-button" onClick={clearAllTags}>
-          フィルタをクリア
+    <div className={`tag-filter ${isVisible ? 'expanded' : 'collapsed'}`}>
+      <div className="tag-filter-header">
+        <h3>カテゴリでフィルタ</h3>
+        <button 
+          className="toggle-filter-button" 
+          onClick={toggleVisibility}
+          aria-label={isVisible ? 'フィルターを隠す' : 'フィルターを表示'}
+        >
+          {isVisible ? '▲ 隠す' : '▼ 表示'}
         </button>
-      )}
+      </div>
+      
+      <div className="tag-filter-content">
+        <div className="tag-list">
+          {tags.map((tag) => (
+            <button
+              key={tag}
+              className={`tag-button ${selectedTags.includes(tag) ? 'selected' : ''}`}
+              onClick={() => toggleTag(tag)}
+            >
+              {tag}
+            </button>
+          ))}
+        </div>
+        {selectedTags.length > 0 && (
+          <button className="clear-tags-button" onClick={clearAllTags}>
+            フィルタをクリア
+          </button>
+        )}
+      </div>
     </div>
   );
 };

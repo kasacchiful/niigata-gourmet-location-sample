@@ -9,6 +9,12 @@
   width: 100%;
   height: calc(100vh - 150px); /* タグフィルターの高さを考慮 */
   z-index: 1;
+  transition: height 0.3s ease; /* フィルター表示/非表示時のスムーズな高さ変更 */
+}
+
+/* フィルターが非表示の場合、地図の高さを調整 */
+.tag-filter.collapsed + .map-container {
+  height: calc(100vh - 80px);
 }
 
 /* ユーザー位置のスタイル */
@@ -109,6 +115,11 @@
 @media (max-width: 768px) {
   .map-container {
     height: calc(100vh - 180px); /* モバイルでのタグフィルターの高さを考慮 */
+  }
+  
+  /* フィルターが非表示の場合、モバイルでの地図の高さを調整 */
+  .tag-filter.collapsed + .map-container {
+    height: calc(100vh - 100px);
   }
   
   .popup-content {
