@@ -173,7 +173,7 @@ niigata_gourmet_spots:
         website_url:
           S: "https://tabelog.com/niigata/A1501/A150101/15000484/"
         image_url:
-          S: ""
+          S: "/images/spot33-ikanosumi-ekimae.jpg"
         latitude:
           N: "37.9141785583768"
         longitude:
@@ -196,7 +196,7 @@ niigata_gourmet_spots:
         website_url:
           S: "https://tabelog.com/niigata/A1501/A150101/15015617/"
         image_url:
-          S: ""
+          S: "/images/spot34-ikanosumi-ekinan.jpg"
         latitude:
           N: "37.908919416485986"
         longitude:
@@ -219,7 +219,7 @@ niigata_gourmet_spots:
         website_url:
           S: "https://tabelog.com/niigata/A1501/A150101/15000667/"
         image_url:
-          S: ""
+          S: "/images/spot35-negibozu.jpg"
         latitude:
           N: "37.91162280566064"
         longitude:
@@ -242,7 +242,7 @@ niigata_gourmet_spots:
         website_url:
           S: "https://tabelog.com/niigata/A1501/A150101/15012966/"
         image_url:
-          S: ""
+          S: "/images/spot36-ebisutai.jpg"
         latitude:
           N: "37.91360353257234"
         longitude:
@@ -265,7 +265,7 @@ niigata_gourmet_spots:
         website_url:
           S: "https://zentei-lexn.owst.jp/"
         image_url:
-          S: ""
+          S: "/images/spot37-zentei.jpg"
         latitude:
           N: "37.909832531425835"
         longitude:
@@ -288,7 +288,7 @@ niigata_gourmet_spots:
         website_url:
           S: "https://akr0921758558.owst.jp/"
         image_url:
-          S: ""
+          S: "/images/spot38-amariro.jpg"
         latitude:
           N: "37.90910901922999"
         longitude:
@@ -311,7 +311,7 @@ niigata_gourmet_spots:
         website_url:
           S: "https://tabelog.com/niigata/A1501/A150101/15013927/"
         image_url:
-          S: ""
+          S: "/images/spot39-olive.jpg"
         latitude:
           N: "37.91332812792783"
         longitude:
@@ -398,7 +398,7 @@ niigata_gourmet_spots:
         website_url:
           S: "https://tabelog.com/niigata/A1501/A150101/15001504/"
         image_url:
-          S: ""
+          S: "/images/spot43-bronco.jpg"
         latitude:
           N: "37.90952242400763"
         longitude:
