@@ -419,9 +419,9 @@ niigata_gourmet_spots:
         image_url:
           S: "/images/spot19-chiyozushi.jpg"
         latitude:
-          N: "37.914190647985414"
+          N: "37.91407586861469"
         longitude:
-          N: "139.06268292395026"
+          N: "139.06273380976975"
   - PutRequest:
       Item:
         id:
@@ -488,3 +488,70 @@ niigata_gourmet_spots:
           N: "37.92373239302977"
         longitude:
           N: "139.04585975178736"
+  - PutRequest:
+      Item:
+        id:
+          S: spot23
+        name:
+          S: "長岡小嶋屋 CoCoLo新潟店"
+        tags:
+          L:
+            - S: "へぎそば"
+            - S: "ランチにオススメ"
+        address:
+          S: "新潟県新潟市中央区花園１-1-1 新潟駅ビルCoCoLo新潟 1階 WEST SIDE エキナンキッチン内"
+        business_hours:
+          S: "10:00-21:00"
+        website_url:
+          S: "https://kojimaya-cocolo.owst.jp/"
+        image_url:
+          S: ""
+        latitude:
+          N: "37.911966646777216"
+        longitude:
+          N: "139.06146421499523"
+  - PutRequest:
+      Item:
+        id:
+          S: spot24
+        name:
+          S: "須坂屋そば 新潟駅前店"
+        tags:
+          L:
+            - S: "へぎそば"
+            - S: "ランチにオススメ"
+            - S: "夜にオススメ"
+        address:
+          S: "新潟県新潟市中央区弁天１-4-29 IMAビル1F-3F"
+        business_hours:
+          S: "11:00-翌00:00"
+        website_url:
+          S: "https://suzakaya-ekimae.owst.jp/"
+        image_url:
+          S: ""
+        latitude:
+          N: "37.91428613631864"
+        longitude:
+          N: "139.05925606335651"
+  - PutRequest:
+      Item:
+        id:
+          S: spot25
+        name:
+          S: "みかづき 万代店"
+        tags:
+          L:
+            - S: "イタリアン"
+            - S: "ランチにオススメ"
+        address:
+          S: "新潟県新潟市中央区万代1-6-1 万代シテイバスセンタービル 2F"
+        business_hours:
+          S: "10:00-20:00"
+        website_url:
+          S: "https://www.mikazuki-italian.com/shop/bandai"
+        image_url:
+          S: ""
+        latitude:
+          N: "37.916692966229284"
+        longitude:
+          N: "139.05590825791506"

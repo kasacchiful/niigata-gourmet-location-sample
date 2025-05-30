@@ -1,0 +1,397 @@
+niigata_gourmet_spots:
+  - PutRequest:
+      Item:
+        id:
+          S: spot26
+        name:
+          S: "ことぶき寿司 c/o まいもん寿司"
+        tags:
+          L:
+            - S: "寿司"
+            - S: "ランチにオススメ"
+            - S: "夜にオススメ"
+        address:
+          S: "新潟県新潟市中央区花園１-1-1 新潟駅ビルCoCoLo新潟 WEST SIDE 1階 エキナンキッチン内"
+        business_hours:
+          S: "10:00-20:00"
+        website_url:
+          S: "https://www.kotobukisushi.com/app-landing-page"
+        image_url:
+          S: ""
+        latitude:
+          N: "37.911994299739426"
+        longitude:
+          N: "139.0615798971713"
+  - PutRequest:
+      Item:
+        id:
+          S: spot27
+        name:
+          S: "とんかつ太郎 CoCoLo新潟店"
+        tags:
+          L:
+            - S: "かつ丼"
+            - S: "ランチにオススメ"
+        address:
+          S: "新潟県新潟市中央区花園1-1-1 CoCoLo新潟 2F WEST SIDE ニシデリストリート内"
+        business_hours:
+          S: "11:00-20:30"
+        website_url:
+          S: "https://tabelog.com/niigata/A1501/A150101/15023806/"
+        image_url:
+          S: ""
+        latitude:
+          N: "37.912121596877725"
+        longitude:
+          N: "139.06044531624187"
+  - PutRequest:
+      Item:
+        id:
+          S: spot28
+        name:
+          S: "とんかつ太郎"
+        tags:
+          L:
+            - S: "かつ丼"
+            - S: "ランチにオススメ"
+        address:
+          S: "新潟県新潟市中央区古町通6-973"
+        business_hours:
+          S: "11:30-14:30, 17:00-20:00 (定休日: 水・木)"
+        website_url:
+          S: "https://tabelog.com/niigata/A1501/A150101/15000010/"
+        image_url:
+          S: ""
+        latitude:
+          N: "37.92064306071018"
+        longitude:
+          N: "139.04396265056013"
+  - PutRequest:
+      Item:
+        id:
+          S: spot29
+        name:
+          S: "とんかつ政ちゃん 新潟駅前店"
+        tags:
+          L:
+            - S: "かつ丼"
+            - S: "ランチにオススメ"
+        address:
+          S: "新潟県新潟市中央区花園1-3-2 IMAビル2 2F"
+        business_hours:
+          S: "10:00-21:00 (定休日: 火 (火曜が祝日の場合は翌日))"
+        website_url:
+          S: "https://masachan-niigata-ekimae.owst.jp/"
+        image_url:
+          S: ""
+        latitude:
+          N: "37.91345290858091"
+        longitude:
+          N: "139.06259277273307"
+  - PutRequest:
+      Item:
+        id:
+          S: spot30
+        name:
+          S: "とんかつ政ちゃん 沼垂本店"
+        tags:
+          L:
+            - S: "かつ丼"
+            - S: "ランチにオススメ"
+        address:
+          S: "新潟県新潟市中央区沼垂東5-12-1"
+        business_hours:
+          S: "11:00-15:00, 17:00-21:00"
+        website_url:
+          S: "https://tabelog.com/niigata/A1501/A150101/15000017/"
+        image_url:
+          S: ""
+        latitude:
+          N: "37.92455480021575"
+        longitude:
+          N: "139.0660449336916"
+  - PutRequest:
+      Item:
+        id:
+          S: spot31
+        name:
+          S: "政家 新潟駅南店"
+        tags:
+          L:
+            - S: "かつ丼"
+            - S: "ランチにオススメ"
+        address:
+          S: "新潟県新潟市中央区南笹口1-1-1 ひもろぎビル 2F"
+        business_hours:
+          S: "11:00-22:00 (土: 11:00-23:00)"
+        website_url:
+          S: "https://tabelog.com/niigata/A1501/A150101/15002161/"
+        image_url:
+          S: ""
+        latitude:
+          N: "37.9087283412902"
+        longitude:
+          N: "139.06351810852902"
+  - PutRequest:
+      Item:
+        id:
+          S: spot32
+        name:
+          S: "レコルタ カーブドッチ"
+        tags:
+          L:
+            - S: "ワイン"
+            - S: "夜にオススメ"
+        address:
+          S: "新潟県新潟市中央区東大通1-5-26"
+        business_hours:
+          S: "17:00-翌00:00 (定休日: 水・日)"
+        website_url:
+          S: "https://tabelog.com/niigata/A1501/A150101/15014748/"
+        image_url:
+          S: ""
+        latitude:
+          N: "37.91424707714215"
+        longitude:
+          N: "139.06270034961977"
+  - PutRequest:
+      Item:
+        id:
+          S: spot33
+        name:
+          S: "いかの墨 新潟駅前店"
+        tags:
+          L:
+            - S: "日本酒"
+            - S: "夜にオススメ"
+        address:
+          S: "新潟県新潟市中央区東大通1-5-24 まるよし第8ビル 1棟"
+        business_hours:
+          S: "17:00-翌00:00"
+        website_url:
+          S: "https://tabelog.com/niigata/A1501/A150101/15000484/"
+        image_url:
+          S: ""
+        latitude:
+          N: "37.9141785583768"
+        longitude:
+          N: "139.06298656113808"
+  - PutRequest:
+      Item:
+        id:
+          S: spot34
+        name:
+          S: "いかの墨 けやき通り店"
+        tags:
+          L:
+            - S: "日本酒"
+            - S: "夜にオススメ"
+        address:
+          S: "新潟県新潟市中央区天神2-137-37"
+        business_hours:
+          S: "17:00-23:00"
+        website_url:
+          S: "https://tabelog.com/niigata/A1501/A150101/15015617/"
+        image_url:
+          S: ""
+        latitude:
+          N: "37.908919416485986"
+        longitude:
+          N: "139.05777162704788"
+  - PutRequest:
+      Item:
+        id:
+          S: spot35
+        name:
+          S: "葱ぼうず"
+        tags:
+          L:
+            - S: "日本酒"
+            - S: "夜にオススメ"
+        address:
+          S: "新潟県新潟市中央区笹口1-10-1"
+        business_hours:
+          S: "17:00-翌00:00 (定休日: 日)"
+        website_url:
+          S: "https://tabelog.com/niigata/A1501/A150101/15000667/"
+        image_url:
+          S: ""
+        latitude:
+          N: "37.91162280566064"
+        longitude:
+          N: "139.06388943292578"
+  - PutRequest:
+      Item:
+        id:
+          S: spot36
+        name:
+          S: "えびす鯛 新潟駅前店"
+        tags:
+          L:
+            - S: "日本酒"
+            - S: "夜にオススメ"
+        address:
+          S: "新潟県新潟市中央区弁天1-3-3"
+        business_hours:
+          S: "11:30-14:00, 17:00-23:00 (金・土: 11:30-14:00,17:00-翌00:00)"
+        website_url:
+          S: "https://tabelog.com/niigata/A1501/A150101/15012966/"
+        image_url:
+          S: ""
+        latitude:
+          N: "37.91360353257234"
+        longitude:
+          N: "139.0595656746097"
+  - PutRequest:
+      Item:
+        id:
+          S: spot37
+        name:
+          S: "ぜんてい 新潟LEXN店"
+        tags:
+          L:
+            - S: "日本酒"
+            - S: "夜にオススメ"
+        address:
+          S: "新潟県新潟市中央区天神1-12-7 LEXN1 1F"
+        business_hours:
+          S: "11:30-14:30, 17:00-23:00 (金・祝日前: 11:30-14:30,17:00-翌00:00 / 土: 17:00-翌00:00 / 祝日: 17:00-23:00 (定休日: 日))"
+        website_url:
+          S: "https://zentei-lexn.owst.jp/"
+        image_url:
+          S: ""
+        latitude:
+          N: "37.909832531425835"
+        longitude:
+          N: "139.06090870499455"
+  - PutRequest:
+      Item:
+        id:
+          S: spot38
+        name:
+          S: "アマリロ"
+        tags:
+          L:
+            - S: "クラフトビール"
+            - S: "夜にオススメ"
+        address:
+          S: "新潟県新潟市中央区天神1-19-7"
+        business_hours:
+          S: "17:30-翌00:00"
+        website_url:
+          S: "https://akr0921758558.owst.jp/"
+        image_url:
+          S: ""
+        latitude:
+          N: "37.90910901922999"
+        longitude:
+          N: "139.05931529316877"
+  - PutRequest:
+      Item:
+        id:
+          S: spot39
+        name:
+          S: "Beer Trip Olive"
+        tags:
+          L:
+            - S: "クラフトビール"
+            - S: "夜にオススメ"
+        address:
+          S: "新潟県新潟市中央区弁天3-2-16"
+        business_hours:
+          S: "17:00-翌00:00 (土・日・祝日: 15:00-翌00:00)"
+        website_url:
+          S: "https://tabelog.com/niigata/A1501/A150101/15013927/"
+        image_url:
+          S: ""
+        latitude:
+          N: "37.91332812792783"
+        longitude:
+          N: "139.0579719076993"
+  - PutRequest:
+      Item:
+        id:
+          S: spot40
+        name:
+          S: "新潟クラフトビール館"
+        tags:
+          L:
+            - S: "クラフトビール"
+            - S: "夜にオススメ"
+        address:
+          S: "新潟県新潟市中央区花園1-1-1 CoCoLo新潟 2F EAST SIDE"
+        business_hours:
+          S: "10:00-20:30"
+        website_url:
+          S: "https://niigatacraftbeerkann.owst.jp/"
+        image_url:
+          S: ""
+        latitude:
+          N: "37.9120480892034"
+        longitude:
+          N: "139.06254481592728"
+  - PutRequest:
+      Item:
+        id:
+          S: spot41
+        name:
+          S: "今代司酒造"
+        tags:
+          L:
+            - S: "日本酒"
+            - S: "見学可能"
+        address:
+          S: "新潟県新潟市中央区鏡が岡1-1"
+        business_hours:
+          S: "09:00-17:00"
+        website_url:
+          S: "https://imayotsukasa.co.jp/brewery/"
+        image_url:
+          S: ""
+        latitude:
+          N: "37.91568262125386"
+        longitude:
+          N: "139.07149872175043"
+  - PutRequest:
+      Item:
+        id:
+          S: spot42
+        name:
+          S: "峰村醸造"
+        tags:
+          L:
+            - S: "見学可能"
+        address:
+          S: "新潟県新潟市中央区明石2-3-44"
+        business_hours:
+          S: "10:00-17:00 (味噌蔵見学は毎週金曜の1日1回で事前予約制)"
+        website_url:
+          S: "https://www.minemurashouten.com/hpgen/HPB/categories/11760.html"
+        image_url:
+          S: ""
+        latitude:
+          N: "37.91736272671935"
+        longitude:
+          N: "139.06975331384757"
+  - PutRequest:
+      Item:
+        id:
+          S: spot43
+        name:
+          S: "ブロンコ"
+        tags:
+          L:
+            - S: "ハンバーグ"
+            - S: "ランチにオススメ"
+        address:
+          S: "新潟県新潟市中央区米山1-8-5"
+        business_hours:
+          S: "11:30-13:30, 17:30-21:30 (日・祝日: 11:30-22:00 (定休日: 月))"
+        website_url:
+          S: "https://tabelog.com/niigata/A1501/A150101/15001504/"
+        image_url:
+          S: ""
+        latitude:
+          N: "37.90952242400763"
+        longitude:
+          N: "139.06088034269618"

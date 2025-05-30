@@ -1,0 +1,56 @@
+[
+    {
+        "Statement": "DELETE FROM \"niigata_gourmet_spots\" WHERE \"id\" = 'spot26'"
+    },
+    {
+        "Statement": "DELETE FROM \"niigata_gourmet_spots\" WHERE \"id\" = 'spot27'"
+    },
+    {
+        "Statement": "DELETE FROM \"niigata_gourmet_spots\" WHERE \"id\" = 'spot28'"
+    },
+    {
+        "Statement": "DELETE FROM \"niigata_gourmet_spots\" WHERE \"id\" = 'spot29'"
+    },
+    {
+        "Statement": "DELETE FROM \"niigata_gourmet_spots\" WHERE \"id\" = 'spot30'"
+    },
+    {
+        "Statement": "DELETE FROM \"niigata_gourmet_spots\" WHERE \"id\" = 'spot31'"
+    },
+    {
+        "Statement": "DELETE FROM \"niigata_gourmet_spots\" WHERE \"id\" = 'spot32'"
+    },
+    {
+        "Statement": "DELETE FROM \"niigata_gourmet_spots\" WHERE \"id\" = 'spot33'"
+    },
+    {
+        "Statement": "DELETE FROM \"niigata_gourmet_spots\" WHERE \"id\" = 'spot34'"
+    },
+    {
+        "Statement": "DELETE FROM \"niigata_gourmet_spots\" WHERE \"id\" = 'spot35'"
+    },
+    {
+        "Statement": "DELETE FROM \"niigata_gourmet_spots\" WHERE \"id\" = 'spot36'"
+    },
+    {
+        "Statement": "DELETE FROM \"niigata_gourmet_spots\" WHERE \"id\" = 'spot37'"
+    },
+    {
+        "Statement": "DELETE FROM \"niigata_gourmet_spots\" WHERE \"id\" = 'spot38'"
+    },
+    {
+        "Statement": "DELETE FROM \"niigata_gourmet_spots\" WHERE \"id\" = 'spot39'"
+    },
+    {
+        "Statement": "DELETE FROM \"niigata_gourmet_spots\" WHERE \"id\" = 'spot40'"
+    },
+    {
+        "Statement": "DELETE FROM \"niigata_gourmet_spots\" WHERE \"id\" = 'spot41'"
+    },
+    {
+        "Statement": "DELETE FROM \"niigata_gourmet_spots\" WHERE \"id\" = 'spot42'"
+    },
+    {
+        "Statement": "DELETE FROM \"niigata_gourmet_spots\" WHERE \"id\" = 'spot43'"
+    }
+]

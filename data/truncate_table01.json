@@ -64,5 +64,14 @@
     },
     {
         "Statement": "DELETE FROM \"niigata_gourmet_spots\" WHERE \"id\" = 'spot22'"
+    },
+    {
+        "Statement": "DELETE FROM \"niigata_gourmet_spots\" WHERE \"id\" = 'spot23'"
+    },
+    {
+        "Statement": "DELETE FROM \"niigata_gourmet_spots\" WHERE \"id\" = 'spot24'"
+    },
+    {
+        "Statement": "DELETE FROM \"niigata_gourmet_spots\" WHERE \"id\" = 'spot25'"
     }
 ]
