@@ -351,6 +351,7 @@ niigata_gourmet_spots:
           L:
             - S: "日本酒"
             - S: "見学可能"
+            - S: "お土産"
         address:
           S: "新潟県新潟市中央区鏡が岡1-1"
         business_hours:
@@ -372,6 +373,7 @@ niigata_gourmet_spots:
         tags:
           L:
             - S: "見学可能"
+            - S: "お土産"
         address:
           S: "新潟県新潟市中央区明石2-3-44"
         business_hours:
