@@ -98,6 +98,7 @@ niigata_gourmet_spots:
         tags:
           L:
             - S: "日本酒"
+            - S: "居酒屋"
             - S: "夜にオススメ"
         address:
           S: "新潟県新潟市中央区花園1-1-1 CoCoLo新潟 2F WEST SIDE"
@@ -408,6 +409,7 @@ niigata_gourmet_spots:
         tags:
           L:
             - S: "寿司"
+            - S: "居酒屋"
             - S: "ランチにオススメ"
             - S: "夜にオススメ"
         address:

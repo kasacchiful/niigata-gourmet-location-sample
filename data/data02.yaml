@@ -141,6 +141,7 @@ niigata_gourmet_spots:
         tags:
           L:
             - S: "ワイン"
+            - S: "居酒屋"
             - S: "夜にオススメ"
         address:
           S: "新潟県新潟市中央区東大通1-5-26"
@@ -163,6 +164,7 @@ niigata_gourmet_spots:
         tags:
           L:
             - S: "日本酒"
+            - S: "居酒屋"
             - S: "夜にオススメ"
         address:
           S: "新潟県新潟市中央区東大通1-5-24 まるよし第8ビル 1棟"
@@ -185,6 +187,7 @@ niigata_gourmet_spots:
         tags:
           L:
             - S: "日本酒"
+            - S: "居酒屋"
             - S: "夜にオススメ"
         address:
           S: "新潟県新潟市中央区天神2-137-37"
@@ -207,6 +210,7 @@ niigata_gourmet_spots:
         tags:
           L:
             - S: "日本酒"
+            - S: "居酒屋"
             - S: "夜にオススメ"
         address:
           S: "新潟県新潟市中央区笹口1-10-1"
@@ -229,6 +233,7 @@ niigata_gourmet_spots:
         tags:
           L:
             - S: "日本酒"
+            - S: "居酒屋"
             - S: "夜にオススメ"
         address:
           S: "新潟県新潟市中央区弁天1-3-3"
@@ -251,6 +256,7 @@ niigata_gourmet_spots:
         tags:
           L:
             - S: "日本酒"
+            - S: "居酒屋"
             - S: "夜にオススメ"
         address:
           S: "新潟県新潟市中央区天神1-12-7 LEXN1 1F"
@@ -273,6 +279,7 @@ niigata_gourmet_spots:
         tags:
           L:
             - S: "クラフトビール"
+            - S: "居酒屋"
             - S: "夜にオススメ"
         address:
           S: "新潟県新潟市中央区天神1-19-7"
@@ -295,6 +302,7 @@ niigata_gourmet_spots:
         tags:
           L:
             - S: "クラフトビール"
+            - S: "居酒屋"
             - S: "夜にオススメ"
         address:
           S: "新潟県新潟市中央区弁天3-2-16"
