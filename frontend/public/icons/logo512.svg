@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="512" height="512" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
+  <!-- 背景円 -->
+  <circle cx="256" cy="256" r="256" fill="#e74c3c"/>
+  
+  <!-- 地図ピン -->
+  <path d="M256 120c-60 0-100 40-100 90 0 60 100 170 100 170s100-110 100-170c0-50-40-90-100-90z" fill="white"/>
+  
+  <!-- 箸と茶碗 -->
+  <circle cx="256" cy="210" r="40" fill="#e74c3c"/>
+  <path d="M236 170l-10 80M276 170l10 80" stroke="#333" stroke-width="8" stroke-linecap="round"/>
+  <path d="M226 210h60" stroke="#333" stroke-width="4"/>
+</svg>

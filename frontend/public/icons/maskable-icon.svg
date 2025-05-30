@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="192" height="192" viewBox="0 0 192 192" xmlns="http://www.w3.org/2000/svg">
+  <!-- マスカブルアイコン用の安全領域を考慮した設計 -->
+  <circle cx="96" cy="96" r="96" fill="#e74c3c"/>
+  
+  <!-- 中央に小さめの地図ピンとグルメアイコン -->
+  <g transform="scale(0.7) translate(40, 40)">
+    <!-- 地図ピン -->
+    <path d="M96 45c-22.5 0-37.5 15-37.5 33.75C58.5 101.25 96 135 96 135s37.5-33.75 37.5-56.25C133.5 60 118.5 45 96 45z" fill="white"/>
+    
+    <!-- 箸と茶碗 -->
+    <circle cx="96" cy="78.75" r="15" fill="#e74c3c"/>
+    <path d="M88.5 63.75l-3.75 30M103.5 63.75l3.75 30" stroke="#333" stroke-width="3" stroke-linecap="round"/>
+    <path d="M84.75 78.75h22.5" stroke="#333" stroke-width="1.5"/>
+  </g>
+  
+  <!-- 下部にテキスト -->
+  <text x="96" y="170" font-family="Arial, sans-serif" font-size="14" font-weight="bold" text-anchor="middle" fill="white">新潟グルメマップ</text>
+</svg>

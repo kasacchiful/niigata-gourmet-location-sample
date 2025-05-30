@@ -1327,3 +1327,26 @@ bash
 このプロジェクトは拡張性を考慮して設計されており、認証機能やお気に入り登録、レ
 ビュー投稿機能などを追加することも可能です。
 
+
+### SVGからPNGへの変換
+
+SVGファイルはモダンブラウザで直接サポートされていますが、完全な互換性のためにPNG
+ファイルも用意することをお勧めします。以下のコマンドを使用して変換できます（
+ImageMagickが必要）：
+
+```bash
+# 192x192サイズのアイコン
+convert -background none -size 192x192 frontend/public/icons/logo192.svg frontend/public/icons/logo192.png
+
+# 512x512サイズのアイコン
+convert -background none -size 512x512 frontend/public/icons/logo512.svg frontend/public/icons/logo512.png
+
+# マスカブルアイコン
+convert -background none -size 192x192 frontend/public/icons/maskable-icon.svg frontend/public/icons/maskable-icon.png
+
+# Apple Touch Icon
+convert -background none -size 180x180 frontend/public/icons/apple-touch-icon.svg frontend/public/icons/apple-touch-icon.png
+
+# favicon.ico
+convert -background none -size 32x32 frontend/public/favicon.svg frontend/public/favicon.ico
+```
