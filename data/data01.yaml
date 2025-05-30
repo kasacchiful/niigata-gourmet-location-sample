@@ -31,6 +31,7 @@ niigata_gourmet_spots:
           L:
             - S: "カレー"
             - S: "朝にオススメ"
+            - S: "PHPConオススメ"
         address:
           S: "新潟県新潟市中央区万代1-6-1 万代シテイバスセンタービル 1F"
         business_hours:
@@ -145,6 +146,7 @@ niigata_gourmet_spots:
           L:
             - S: "ラーメン"
             - S: "ランチにオススメ"
+            - S: "PHPConオススメ"
         address:
           S: "新潟県新潟市中央区米山1-6-10"
         business_hours:
@@ -190,6 +192,7 @@ niigata_gourmet_spots:
           L:
             - S: "ラーメン"
             - S: "ランチにオススメ"
+            - S: "PHPConオススメ"
         address:
           S: "新潟県新潟市中央区南笹口1-1-38 コープオリンピア笹口 1F"
         business_hours:
@@ -234,6 +237,7 @@ niigata_gourmet_spots:
           L:
             - S: "ラーメン"
             - S: "ランチにオススメ"
+            - S: "PHPConオススメ"
         address:
           S: "新潟県新潟市中央区米山4-1-1 伏見ビル2 1F"
         business_hours:
@@ -411,6 +415,7 @@ niigata_gourmet_spots:
             - S: "寿司"
             - S: "居酒屋"
             - S: "ランチにオススメ"
+            - S: "PHPConオススメ"
             - S: "夜にオススメ"
         address:
           S: "新潟県新潟市中央区東大通1-5-26"
