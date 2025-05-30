@@ -419,7 +419,7 @@ niigata_gourmet_spots:
         website_url:
           S: "https://chiyozushi-niigata.gorp.jp/"
         image_url:
-          S: "/images/spot19-chiyozushi.jpg"
+          S: ""
         latitude:
           N: "37.91407586861469"
         longitude:
@@ -507,7 +507,7 @@ niigata_gourmet_spots:
         website_url:
           S: "https://kojimaya-cocolo.owst.jp/"
         image_url:
-          S: ""
+          S: "/images/spot23-kojimaya.jpg"
         latitude:
           N: "37.911966646777216"
         longitude:
@@ -552,7 +552,7 @@ niigata_gourmet_spots:
         website_url:
           S: "https://www.mikazuki-italian.com/shop/bandai"
         image_url:
-          S: ""
+          S: "/images/spot25-mikazuki-itarian.jpg"
         latitude:
           N: "37.916692966229284"
         longitude:

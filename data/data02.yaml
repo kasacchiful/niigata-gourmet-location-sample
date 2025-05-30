@@ -17,7 +17,7 @@ niigata_gourmet_spots:
         website_url:
           S: "https://www.kotobukisushi.com/app-landing-page"
         image_url:
-          S: ""
+          S: "/images/spot26-kotobuki-maimon.jpg"
         latitude:
           N: "37.911994299739426"
         longitude:
@@ -39,7 +39,7 @@ niigata_gourmet_spots:
         website_url:
           S: "https://tabelog.com/niigata/A1501/A150101/15023806/"
         image_url:
-          S: ""
+          S: "/images/spot27-tonkatsu-taro.jpg"
         latitude:
           N: "37.912121596877725"
         longitude:
@@ -61,7 +61,7 @@ niigata_gourmet_spots:
         website_url:
           S: "https://tabelog.com/niigata/A1501/A150101/15000010/"
         image_url:
-          S: ""
+          S: "/images/spot28-tonkatsu-taro.jpg"
         latitude:
           N: "37.92064306071018"
         longitude:
@@ -83,7 +83,7 @@ niigata_gourmet_spots:
         website_url:
           S: "https://masachan-niigata-ekimae.owst.jp/"
         image_url:
-          S: ""
+          S: "/images/spot29-tonkatsu-masachan.jpg"
         latitude:
           N: "37.91345290858091"
         longitude:
@@ -105,7 +105,7 @@ niigata_gourmet_spots:
         website_url:
           S: "https://tabelog.com/niigata/A1501/A150101/15000017/"
         image_url:
-          S: ""
+          S: "/images/spot30-tonkatsu-masachan.jpg"
         latitude:
           N: "37.92455480021575"
         longitude:
@@ -127,7 +127,7 @@ niigata_gourmet_spots:
         website_url:
           S: "https://tabelog.com/niigata/A1501/A150101/15002161/"
         image_url:
-          S: ""
+          S: "/images/spot31-tonkatsu-matsuriya.jpg"
         latitude:
           N: "37.9087283412902"
         longitude:
@@ -150,7 +150,7 @@ niigata_gourmet_spots:
         website_url:
           S: "https://tabelog.com/niigata/A1501/A150101/15014748/"
         image_url:
-          S: ""
+          S: "/images/spot32-cave-docci.jpg"
         latitude:
           N: "37.91424707714215"
         longitude:
