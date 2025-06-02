@@ -1,0 +1,26 @@
+{
+    "FunctionUrl": "https://nobg4ht6wgujbqclyj4mmleiae0bbkwp.lambda-url.ap-northeast-1.on.aws/",
+    "FunctionArn": "arn:aws:lambda:ap-northeast-1:660035202545:function:niigata-gourmet-api",
+    "AuthType": "NONE",
+    "Cors": {
+        "AllowCredentials": false,
+        "AllowHeaders": [
+            "content-type"
+        ],
+        "AllowMethods": [
+            "*"
+        ],
+        "AllowOrigins": [
+            "https://d1bdqrb9cbkl3v.cloudfront.net",
+            "https://main.d28th6svgbae4n.amplifyapp.com",
+            "https://ngt-gourmet.kasacchiful.net",
+            "http://localhost:3000"
+        ],
+        "ExposeHeaders": [
+            "content-type"
+        ]
+    },
+    "CreationTime": "2025-05-15T04:33:16.354530178Z",
+    "LastModifiedTime": "2025-05-28T05:31:15.870574296Z",
+    "InvokeMode": "BUFFERED"
+}
