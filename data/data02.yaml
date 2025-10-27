@@ -32,7 +32,7 @@ niigata_gourmet_spots:
           L:
             - S: "かつ丼"
             - S: "ランチにオススメ"
-            - S: "JaSSTオススメ"
+            - S: "KomeKaigiオススメ"
         address:
           S: "新潟県新潟市中央区花園1-1-1 CoCoLo新潟 2F WEST SIDE ニシデリストリート内"
         business_hours:
@@ -121,7 +121,7 @@ niigata_gourmet_spots:
           L:
             - S: "かつ丼"
             - S: "ランチにオススメ"
-            - S: "JaSSTオススメ"
+            - S: "KomeKaigiオススメ"
         address:
           S: "新潟県新潟市中央区南笹口1-1-1 ひもろぎビル 2F"
         business_hours:
@@ -145,7 +145,7 @@ niigata_gourmet_spots:
             - S: "ワイン"
             - S: "居酒屋"
             - S: "夜にオススメ"
-            - S: "JaSSTオススメ"
+            - S: "KomeKaigiオススメ"
         address:
           S: "新潟県新潟市中央区東大通1-5-26"
         business_hours:
