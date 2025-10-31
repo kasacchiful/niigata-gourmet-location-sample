@@ -250,29 +250,29 @@ niigata_gourmet_spots:
           N: "37.91360353257234"
         longitude:
           N: "139.0595656746097"
-  - PutRequest:
-      Item:
-        id:
-          S: spot37
-        name:
-          S: "ぜんてい 新潟LEXN店"
-        tags:
-          L:
-            - S: "日本酒"
-            - S: "居酒屋"
-            - S: "夜にオススメ"
-        address:
-          S: "新潟県新潟市中央区天神1-12-7 LEXN1 1F"
-        business_hours:
-          S: "11:30-14:30, 17:00-23:00 (金・祝日前: 11:30-14:30,17:00-翌00:00 / 土: 17:00-翌00:00 / 祝日: 17:00-23:00 (定休日: 日))"
-        website_url:
-          S: "https://zentei-lexn.owst.jp/"
-        image_url:
-          S: "/images/spot37-zentei.jpg"
-        latitude:
-          N: "37.909832531425835"
-        longitude:
-          N: "139.06090870499455"
+  # - PutRequest:
+  #     Item:
+  #       id:
+  #         S: spot37
+  #       name:
+  #         S: "ぜんてい 新潟LEXN店"
+  #       tags:
+  #         L:
+  #           - S: "日本酒"
+  #           - S: "居酒屋"
+  #           - S: "夜にオススメ"
+  #       address:
+  #         S: "新潟県新潟市中央区天神1-12-7 LEXN1 1F"
+  #       business_hours:
+  #         S: "11:30-14:30, 17:00-23:00 (金・祝日前: 11:30-14:30,17:00-翌00:00 / 土: 17:00-翌00:00 / 祝日: 17:00-23:00 (定休日: 日))"
+  #       website_url:
+  #         S: "https://zentei-lexn.owst.jp/"
+  #       image_url:
+  #         S: "/images/spot37-zentei.jpg"
+  #       latitude:
+  #         N: "37.909832531425835"
+  #       longitude:
+  #         N: "139.06090870499455"
   - PutRequest:
       Item:
         id:
@@ -408,3 +408,131 @@ niigata_gourmet_spots:
           N: "37.90952242400763"
         longitude:
           N: "139.06088034269618"
+  - PutRequest:
+      Item:
+        id:
+          S: spot44
+        name:
+          S: "食堂もりしげ"
+        tags:
+          L:
+            - S: "オムライス"
+            - S: "ランチにオススメ"
+        address:
+          S: "新潟県新潟市中央区米山2-9-9 1F"
+        business_hours:
+          S: "月、水～日、祝日、祝前日: 11:30～14:30 （料理L.O. 14:00 ドリンクL.O. 14:00） 18:00～21:30 （料理L.O. 21:00 ドリンクL.O. 21:00）"
+        website_url:
+          S: "https://syokudo-morishige.owst.jp/"
+        image_url:
+          S: ""
+        latitude:
+          N: "37.908237631989174"
+        longitude:
+          N: "139.05695175251856"
+  - PutRequest:
+      Item:
+        id:
+          S: spot45
+        name:
+          S: "寿司 藤五郎"
+        tags:
+          L:
+            - S: "寿司"
+        address:
+          S: "新潟県新潟市中央区米山2-1-3"
+        business_hours:
+          S: "月、水～日、祝日、祝前日: 11:30～14:30 17:00～22:30 （料理L.O. 21:30 ドリンクL.O. 21:30）"
+        website_url:
+          S: "https://www.hotpepper.jp/strJ004068185/"
+        image_url:
+          S: ""
+        latitude:
+          N: "37.908999"
+        longitude:
+          N: "139.058973"
+  - PutRequest:
+      Item:
+        id:
+          S: spot46
+        name:
+          S: "新潟串カツセンター"
+        tags:
+          L:
+            - S: "串カツ"
+        address:
+          S: "新潟県新潟市中央区花園1-1-1 CoCoLo新潟 2F EAST SIDE ニイガタバル☆麺横丁内"
+        business_hours:
+          S: "月～日、祝日: 11:00～23:00"
+        website_url:
+          S: "https://www.hotpepper.jp/strJ003941106/"
+        image_url:
+          S: ""
+        latitude:
+          N: "37.9123477994784"
+        longitude:
+          N: "139.0630796654434"
+  - PutRequest:
+      Item:
+        id:
+          S: spot47
+        name:
+          S: "SUZUVEL"
+        tags:
+          L:
+            - S: "カレー"
+        address:
+          S: "新潟県新潟市中央区花園1-96-47 CoCoLo新潟 メッツ館 1F"
+        business_hours:
+          S: "7:00〜23:00"
+        website_url:
+          S: "https://suzuvel.gorp.jp/"
+        image_url:
+          S: ""
+        latitude:
+          N: "37.91143175013748"
+        longitude:
+          N: "139.06078090608017"
+  - PutRequest:
+      Item:
+        id:
+          S: spot48
+        name:
+          S: "鳥専門店せきとり CoCoLo新潟店"
+        tags:
+          L:
+            - S: "半身あげ"
+            - S: "カレー"
+        address:
+          S: "新潟県新潟市中央区花園1-1-1 CoCoLo新潟 2F WEST SIDE"
+        business_hours:
+          S: "11:00〜20:30"
+        website_url:
+          S: "https://www.hotpepper.jp/strJ004005545/"
+        image_url:
+          S: ""
+        latitude:
+          N: "37.91212245385897"
+        longitude:
+          N: "139.06034643821116"
+  - PutRequest:
+      Item:
+        id:
+          S: spot49
+        name:
+          S: "吟醸味噌らーめん まごころ亭 新潟駅前店"
+        tags:
+          L:
+            - S: "ラーメン"
+        address:
+          S: "新潟県新潟市中央区弁天1-3-30"
+        business_hours:
+          S: "11:00〜00:30"
+        website_url:
+          S: "https://kakunaka-g.com/shop/magokoroteiekimae/"
+        image_url:
+          S: ""
+        latitude:
+          N: "37.913733697745926"
+        longitude:
+          N: "139.0597058923937"
