@@ -89,4 +89,25 @@ class Spot
         
         return false;
     }
+
+    /**
+     * 指定されたタグのすべてを持っているかチェック
+     */
+    public function hasAllTag(array $tags): bool
+    {
+        if (empty($tags)) {
+            return true;
+        }
+        
+        $flag = false;
+        foreach ($tags as $tag) {
+            if ($this->hasTag($tag)) {
+                $flag = true;
+            } else {
+                return false;
+            }
+        }
+        
+        return $flag;
+    }
 }

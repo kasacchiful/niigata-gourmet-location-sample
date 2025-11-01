@@ -42,7 +42,7 @@ class SpotController
                     $spot = Spot::fromArray($data);
                     
                     // タグによるフィルタリング
-                    if (empty($filterTags) || $spot->hasAnyTag($filterTags)) {
+                    if (empty($filterTags) || $spot->hasAllTag($filterTags)) {
                         $spots[] = $spot->toArray();
                     }
                 }
