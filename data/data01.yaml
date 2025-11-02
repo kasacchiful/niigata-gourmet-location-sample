@@ -215,6 +215,7 @@ niigata_gourmet_spots:
           L:
             - S: "ラーメン"
             - S: "ランチにオススメ"
+            - S: "KomeKaigiオススメ"
         address:
           S: "新潟県新潟市中央区花園1-1-1 CoCoLo新潟 2F EAST SIDE ニイガタバル☆麺横丁内"
         business_hours:
@@ -282,6 +283,7 @@ niigata_gourmet_spots:
           L:
             - S: "ラーメン"
             - S: "ランチにオススメ"
+            - S: "KomeKaigiオススメ"
         address:
           S: "新潟県新潟市中央区花園1-1-1 CoCoLo新潟 2F EAST SIDE ニイガタバル☆麺横丁内"
         business_hours:
@@ -304,6 +306,7 @@ niigata_gourmet_spots:
           L:
             - S: "ラーメン"
             - S: "ランチにオススメ"
+            - S: "KomeKaigiオススメ"
         address:
           S: "新潟県新潟市中央区花園1-1-1 CoCoLo新潟 2F EAST SIDE ニイガタバル☆麺横丁内"
         business_hours:
@@ -326,6 +329,7 @@ niigata_gourmet_spots:
           L:
             - S: "ラーメン"
             - S: "ランチにオススメ"
+            - S: "KomeKaigiオススメ"
         address:
           S: "新潟県新潟市中央区花園1-1-1 CoCoLo新潟 2F EAST SIDE ニイガタバル☆麺横丁内"
         business_hours:
@@ -348,6 +352,7 @@ niigata_gourmet_spots:
           L:
             - S: "ラーメン"
             - S: "ランチにオススメ"
+            - S: "KomeKaigiオススメ"
         address:
           S: "新潟県新潟市中央区花園1-1-1 CoCoLo新潟 2F EAST SIDE ニイガタバル☆麺横丁内"
         business_hours:
@@ -505,6 +510,7 @@ niigata_gourmet_spots:
           L:
             - S: "へぎそば"
             - S: "ランチにオススメ"
+            - S: "KomeKaigiオススメ"
         address:
           S: "新潟県新潟市中央区花園１-1-1 新潟駅ビルCoCoLo新潟 1階 WEST SIDE エキナンキッチン内"
         business_hours:
@@ -528,6 +534,7 @@ niigata_gourmet_spots:
             - S: "へぎそば"
             - S: "ランチにオススメ"
             - S: "夜にオススメ"
+            - S: "KomeKaigiオススメ"
         address:
           S: "新潟県新潟市中央区弁天１-4-29 IMAビル1F-3F"
         business_hours:

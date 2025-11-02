@@ -10,6 +10,7 @@ niigata_gourmet_spots:
             - S: "寿司"
             - S: "ランチにオススメ"
             - S: "夜にオススメ"
+            - S: "KomeKaigiオススメ"
         address:
           S: "新潟県新潟市中央区花園１-1-1 新潟駅ビルCoCoLo新潟 WEST SIDE 1階 エキナンキッチン内"
         business_hours:
@@ -439,6 +440,7 @@ niigata_gourmet_spots:
         tags:
           L:
             - S: "寿司"
+            - S: "KomeKaigiオススメ"
         address:
           S: "新潟県新潟市中央区米山2-1-3"
         business_hours:
